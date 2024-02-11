@@ -25,10 +25,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "cp -R ../../resume/HimanshuArora_Resume.pdf ./src/resources/resume/resume.pdf && react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "css": "npx tailwindcss -i ./src/input.css -o ./src/index.css --watch"
+    "css": "npx tailwindcss -i ./src/input.css -o ./src/index.css --watch",
+    "load-cv": "cp -R ../../resume/HimanshuArora_Resume.pdf ./src/resources/resume/resume.pdf"
   },
   "eslintConfig": {
     "extends": [
