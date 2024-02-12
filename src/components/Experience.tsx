@@ -17,7 +17,7 @@ export default function Experience(): ReactElement {
                             <li>Integrated Elastic search based data model on UI to fetch data from Elastic DB and
                                 display it on UI</li>
                             <li>Have developed a fully functional data table having support for resizing, filtering,
-                                sorting and what not.</li>
+                                sorting and expandable rows.</li>
                             <li>Have lead the team in developing a mobile based native platform for our web portal
                                 consumers using ReactNative</li>
                             <li>Have traveled to customer premises in Riyadh and conducted several discussions for
