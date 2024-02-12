@@ -29,7 +29,7 @@ function PersonalInfo(): ReactElement {
                     <h6 style={{textAlign: 'center'}}>Majors : ReactJS, Typescript, Next13, Tailwind, React Native, MongoDB, NodeJS, ExpressJS</h6>
                     <h6 style={{textAlign: 'center'}}>Vocals : English, Hindi, Punjabi</h6>
                     <h6 style={{textAlign: 'center'}}>Total Experience : <ExperienceTimer /></h6>
-                    <h6 style={{textAlign: 'center'}}>Software Developer having 3 years of professional work experience in developing frontend for several web based applications using ReactJs, TypeScript and Tailwind and about 1.5 Years of total experience in developing Native Applications with React-Native.</h6>
+                    <h6 style={{textAlign: 'center'}}>Software Developer having around 3 years of professional work experience in developing frontend for several web based applications using ReactJs, TypeScript and Tailwind and about 1.5 Years of total experience in developing Native Applications with React-Native.</h6>
                 </div>
             </div>
         </section>
