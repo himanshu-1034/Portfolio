@@ -2,11 +2,12 @@ import React, { ReactElement } from 'react';
 
 export default function Experience(): ReactElement {
     return (
-        <section id='experience-panel' className='info-panel'>
-            <h4 className='d-flex align-items-center justify-content-center' style={{marginBottom: '10px'}}><u>Professional Experience</u></h4>
+        <section className='p-10px'>
+            <div className='border-grow-animation' />
+            <h4 className='d-flex align-items-center justify-content-center p-10px'><u>Professional Experience</u></h4>
             <div className='row'>
                 <div className='col-lg-12 col-xl-12 col-md-12 col-sm-12 col-xs-12'>
-                    <div className='card box-shadow rounded-borders'>
+                    <div className=''>
                         <h5 className='cursor-pointer' onClick={() => { window.open('https://www.privafy.com', '_blank') }}>Privafy Technologies India Pvt Ltd - Software Engineer</h5>
                         <label className='f-12px'>Mar 2021 - Present</label>
                         <ul style={{listStyleType: 'disc', marginTop: '15px'}}>

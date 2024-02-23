@@ -2,11 +2,11 @@ import React, { ReactElement } from "react";
 
 export default function Education(): ReactElement {
     return (
-        <section className="info-panel" id='education-panel'>
+        <section>
             <div className="row">
                 <div className="col-lg-12 col-xl-12 col-md-12 col-sm-12 col-xs-12">
-                    <h4 className="d-flex align-items-center justify-content-center" style={{marginBottom: '10px'}}><u>Educational Qualifications</u></h4>
-                    <div className="card box-shadow">
+                    <h4 className="d-flex align-items-center justify-content-center p-10px">Educational Qualifications</h4>
+                    <div className="">
                         <section style={{ margin: '10px 0px' }}>
                             <h5 className="cursor-pointer" onClick={() => { window.open(`https://www.chitkara.edu.in/cse/`, '_blank') }}>B.E. (Computer Science & Engineering), Chitkara University</h5>
                             <label className="f-12px">Rajpura, Punjab</label><br/>

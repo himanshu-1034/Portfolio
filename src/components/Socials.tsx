@@ -7,7 +7,7 @@ const resume = require('../resources/resume/resume.pdf')
 
 function Socials(): ReactElement {
     return (
-        <section className='info-panel' id='socials-panel'>
+        <section style={{width: '100%'}} className='animate-fade-in'>
             <div className='row'>
                 <div className='col-4 socials'>
                     <h6 className='cursor-pointer' onClick={() => {window.open(`https://www.linkedin.com/in/himanshu-arora-8bbb911a3/`, '_blank')}}>
@@ -24,7 +24,7 @@ function Socials(): ReactElement {
                 <div className='col-4 socials'>
                     <h6 className='cursor-pointer' onClick={() => {window.open(`https://drive.google.com/drive/folders/16MTmvf0nGpKZ0msrzD6MhceiKpgKMpcU?usp=sharing`, '_blank')}}>
                         <FontAwesomeIcon icon={faFile} />
-                        <span className='' style={{ marginLeft: 5 }}>My Resume</span>
+                        <span className='' style={{ marginLeft: 5 }}>Resume</span>
                     </h6>
                 </div>
             </div>
